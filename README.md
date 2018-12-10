@@ -1,4 +1,4 @@
-# terraform-aws-vpc
+# terraform-aws-vpc-example
 
 [![CircleCI](https://circleci.com/gh/dwmkerr/terraform-aws-vpc.svg?style=shield)](https://circleci.com/gh/dwmkerr/terraform-aws-vpc)
 
