@@ -1,6 +1,6 @@
 # terraform-aws-vpc-example
 
-[![CircleCI](https://circleci.com/gh/dwmkerr/terraform-aws-vpc.svg?style=shield)](https://circleci.com/gh/dwmkerr/terraform-aws-vpc)
+[![CircleCI](https://circleci.com/gh/dwmkerr/terraform-aws-vpc-example.svg?style=shield)](https://circleci.com/gh/dwmkerr/terraform-aws-vpc-example)
 
 Small and simple Terraform module to create a VPC which contains a cluster of web servers.
 
