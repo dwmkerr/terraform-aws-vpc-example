@@ -1,5 +1,7 @@
 # terraform-aws-vpc
 
+[![CircleCI](https://circleci.com/gh/dwmkerr/terraform-aws-vpc.svg?style=shield)](https://circleci.com/gh/dwmkerr/terraform-aws-vpc)
+
 Small and simple Terraform module to create a VPC which contains a cluster of web servers.
 
 This is the companion to my article:
