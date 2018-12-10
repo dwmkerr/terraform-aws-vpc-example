@@ -5,7 +5,7 @@ provider "aws" {
 
 //  Create the ECS cluster using our module.
 module "cluster" {
-  source           = "../"
+  source           = "../../"
   region           = "ap-northeast-2"
   vpc_cidr         = "10.0.0.0/16"
   subnets          = {

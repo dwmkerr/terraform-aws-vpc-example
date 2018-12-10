@@ -68,7 +68,10 @@ resource "aws_autoscaling_group" "cluster_node" {
 # A load balancer for the cluster.
 resource "aws_alb" "cluster-alb" {
     name                = "cluster-alb"
-    security_groups     = ["${aws_security_group.public_ingress.id}"]
+    security_groups     = [
+      "${aws_security_group.public_ingress.id}",
+      "${aws_security_group.intra_node_communication.id}"
+    ]
     subnets             = ["${aws_subnet.public-subnet.*.id}"]
 }
 

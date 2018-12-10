@@ -12,3 +12,11 @@ This module demonstrates techniques for working with a dynamic set of availabili
 
 Terraform 0.11 onwards is required.
 
+## Developer Guide
+
+The following commands may be useful:
+
+| Command         | Usage                                  |
+|-----------------|----------------------------------------|
+| `make lint`     | Lint the Terraform code with `tflint`. |
+| `make circleci` | Run the CircleCI build locally.        |
