@@ -4,6 +4,7 @@ version: 2
 jobs:
   # Lint the Terraform code.
   lint:
+    working_directory: /build
     docker:
       - image: dwmkerr/terraform-ci:0.1.0
     steps:
@@ -16,7 +17,7 @@ jobs:
       # We do not yet run any additional steps, but when we do it is important
       # to persist terraform state in the workspace.
       - persist_to_workspace:
-          root: /terraform-aws-openshift
+          root: /build
           paths:
             - .terraform
 
