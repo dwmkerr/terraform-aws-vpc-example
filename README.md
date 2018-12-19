@@ -6,7 +6,7 @@ Small and simple Terraform module to create a VPC which contains a cluster of we
 
 This is the companion to my article:
 
-[Dynamic and Configurable Availability Zones in Terraform](TODO)
+[Dynamic and Configurable Availability Zones in Terraform](https://www.dwmkerr.com/dynamic-and-configurable-availability-zones-in-terraform/)
 
 This module demonstrates techniques for working with a dynamic set of availability zones.
 
